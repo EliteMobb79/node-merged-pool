@@ -1,0 +1,39 @@
+{
+    "name": "merged-pooler",
+    "version": "0.1.9",
+    "description": "High performance Stratum poolserver in Node.js",
+    "keywords": [
+        "stratum",
+        "mining",
+        "pool",
+        "server",
+        "poolserver",
+        "bitcoin",
+        "litecoin",
+        "scrypt"
+    ],
+    "homepage": "https://github.com/EliteMobb79/node-merged-pool",
+    "bugs": {
+        "url": "https://github.com/EliteMobb79/node-merged-pool/issues"
+    },
+    "license": "GPL-2.0",
+    "author": "Matthew Little",
+    "contributors": [
+        "vekexasia",
+        "TheSeven"
+    ],
+    "main": "lib/index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/globaltoken/node-stratum-pool.git"
+    },
+    "dependencies": {
+        "multi-hashing": "git://github.com/EliteMobb79/node-merged-pool.git",
+        "bignum": "*",
+        "base58-native": "*",
+        "async": "*"
+    },
+    "engines": {
+        "node": ">=0.10"
+    }
+}
